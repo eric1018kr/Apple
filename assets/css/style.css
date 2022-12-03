@@ -2,7 +2,7 @@
 .container {width: 1000px; margin: 0 auto;}
 
 /* row */
-.row {margin: 0 20px;}
+.row {margin: 0 20px; position: relative;}
 
 /* header */
 #header .data {
@@ -10,4 +10,25 @@
     font-size: 12px;
     line-height: 20px;
     color: #B5B5B5;
+}
+#header .title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#header .id {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(124.99deg, #B6B6B6 4.8%, #E4E4E4 92.45%);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    font-weight: 700;
 }
