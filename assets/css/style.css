@@ -1,5 +1,5 @@
 /* conatiner */
-.container {width: 1000px; margin: 0 auto;}
+.container {width: 1000px;  margin: 0 auto;}
 
 /* row */
 .row {margin: 0 20px; position: relative; }
@@ -17,6 +17,7 @@
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    
 }
 
 #header .id {
@@ -25,7 +26,7 @@
     bottom: 5px;
     width: 40px;
     height: 40px;
-    background: linear-gradient(124.99deg, #B6B6B6 4.8%, #E4E4E4 92.45%);
+    background: linear-gradient(142.43deg, #ACACAC 4.35%, #E4E4E4 82.32%);
     border-radius: 50%;
 
     display: flex;
@@ -33,10 +34,49 @@
     justify-content: center;
     color: #fff;
 
-    font-weight: 700;
+    font-weight: 300;
+
 }
 
-/* 반응형을 위한 mediaquery */
+/* bestM */
+.bestM .best-title .bt-stit { color: #C92B2B; font-size: 12px; font-weight: 500;}
+.bestM .best-title .bt-tit { font-size: 24px; font-weight: 600;}
+.bestM .best-title .bt-desc { color: #ACACAC; font-size: 24px; font-weight: 300; padding-bottom: 15px;}
+
+/* recentM */
+.recentM {overflow: hidden;}
+.recentM .recent {float: left; width: 49%; margin-right: 2%;}
+.recentM .recent:last-child {margin-right: 0;}
+.recentM h2 { font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 16px;
+              border-top: 1px solid #ccc;
+              padding-top: 20px;
+             }
+.recentM .recent-title {margin-top: 10px;}
+.recentM .recent-title .rt-stit { font-size: 20px; font-weight: 500; }
+.recentM .recent-title .rt-tit { font-size: 16px; font-weight: 300; color: #B5B5B5;}
+
+/* nextM */
+.nextM h2 { font-size: 24px; font-weight: 600; margin-bottom: 18px; margin-top: 20px; 
+            border-top: 1px solid #d9d9d9 ; padding-top: 20px;}
+.nextM .next {display: flex; margin-bottom: 20px; position: relative;}
+.nextM .next .next-img {width: 100px; margin-right: 12px;}
+.nextM .next .next-tit { display: flex; flex-direction: column; justify-content: center;}
+.nextM .next .next-tit .nt-stit { font-size: 10px; color: #C92B2B;}
+.nextM .next .next-tit .nt-tit { font-size: 18px; font-weight: bold; margin: 3px 0;}
+.nextM .next .next-tit .nt-desc { font-size: 13px; color: #d5d5d5; }
+.nextM .next::after { content:""; position: absolute; right: 0; bottom: -8px; height: 1px; 
+                      width: calc(100% - 120px);    background: #B5B5B5;}
+
+
+ /* play */
+ .play  {width: 100%; height: 60px; background: rgba(228, 228, 228, 0.8); display: flex; align-items: center;
+         position: fixed; bottom: 0px; left: 0px;}
+
+.play .play-img { width: 48px; height: 48px; padding: 8px 20px; }
+.play .play-img img {border-radius: 5px; box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3)}
+
+
+/* 반응형을 위한 mediaquery  */
 @media(max-width:1020px){
-    .container{width:100%;}
+    .container{width: 100%;}
 }
