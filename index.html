@@ -23,6 +23,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
 
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+
 </head>
 
 <body>
@@ -63,23 +70,42 @@
                <div class="container">
                     <div class="row">
                         <h2>최근 재생한 음악</h2>
-                        <div class="recent">
-                            <picture>
-                                <img src="assets/images/recent_01.png" alt="스폰지밥 주제곡">
-                            </picture>
-                            <div class="recent-title">
-                                <span class="rt-stit">스폰지밥</span>
-                                <h3 class="rt-tit">오늘의 팝 사운드</h3>
+                        <div class="slide">
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent1.png" alt="스폰지밥 주제곡">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">BTS(방탄소년단)</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="recent">
-                            <picture>
-                                <img src="assets/images/recent_02.png" alt="스폰지밥 주제곡">
-                            </picture>
-                            <div class="recent-title">
-                                <span class="rt-stit">징징이님</span>
-                                <h3 class="rt-tit">오늘의 팝 사운드</h3>
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent2.png" alt="스폰지밥 주제곡">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">aespa</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>
+                                </div>
+                            </div>
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent2.png" alt="스폰지밥 주제곡">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">aespa</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>
+                                </div>
+                            </div>
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent2.png" alt="스폰지밥 주제곡">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">aespa</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -95,7 +121,7 @@
                             <div class="next">
                                 <div class="next-img">
                                     <picture>
-                                        <img src="assets/images/next_01.png" alt="다음음악1">
+                                        <img src="assets/images/next1.png" alt="다음음악1">
                                     </picture>
                                 </div>
                                 <div class="next-tit">
@@ -109,7 +135,7 @@
                             <div class="next">
                                 <div class="next-img">
                                     <picture>
-                                        <img src="assets/images/next_02.png" alt="다음음악2">
+                                        <img src="assets/images/next2.png" alt="다음음악2">
                                     </picture>
                                 </div>
                                 <div class="next-tit">
@@ -123,7 +149,7 @@
                             <div class="next">
                                 <div class="next-img">
                                     <picture>
-                                        <img src="assets/images/next_03.png" alt="다음음악3">
+                                        <img src="assets/images/next3.png" alt="다음음악3">
                                     </picture>
                                 </div>
                                 <div class="next-tit">
@@ -137,7 +163,7 @@
                             <div class="next">
                                 <div class="next-img">
                                     <picture>
-                                        <img src="assets/images/next_04.png" alt="다음음악4">
+                                        <img src="assets/images/next4.png" alt="다음음악4">
                                     </picture>
                                 </div>
                                 <div class="next-tit">
@@ -151,7 +177,7 @@
                             <div class="next">
                                 <div class="next-img">
                                     <picture>
-                                        <img src="assets/images/next_05.png" alt="다음음악5">
+                                        <img src="assets/images/next5.png" alt="다음음악5">
                                     </picture>
                                 </div>
                                 <div class="next-tit">
@@ -174,13 +200,89 @@
     <section class="play">
         <div class="play-img">
             <picture>
-                <img src="assets/images/play-img.png" alt="플레이 음악">
+                <img src="assets/images/playing.png" alt="플레이 음악">
             </picture>
         </div>
-        <div class="play-tit">스폰지밥이 좋아</div>
-        
+        <div class="play-tit">aespa</div>
+        <div class="btn">
+            <a href="#">
+                <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 7.76795C17.3333 8.53775 17.3333 10.4623 16 11.2321L3.25 18.5933C1.91667 19.3631 0.249999 18.4008 0.249999 16.8612L0.25 2.13878C0.25 0.599183 1.91667 -0.363068 3.25 0.406733L16 7.76795Z" fill="black"/>
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="31" height="19" viewBox="0 0 31 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M30 11.0963C31.3333 10.3265 31.3333 8.40195 30 7.63215L17.25 0.270933C15.9167 -0.498867 14.25 0.463383 14.25 2.00298V6.76616L3 0.270972C1.66667 -0.498828 0 0.463423 0 2.00302V16.7255C0 18.2651 1.66667 19.2273 3 18.4575L14.25 11.9623V16.7254C14.25 18.265 15.9167 19.2273 17.25 18.4575L30 11.0963Z" fill="black"/>
+                </svg>
+            </a>
+        </div>
     </section>
+    <!-- //section -->
 
+    <!-- nav -->
+    <nav class="nav">
+        <ul>
+
+            <li>
+                <a href="#">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 28.8C19.3948 28.8 22.6505 27.4514 25.051 25.051C27.4514 22.6505 28.8 19.3948 28.8 16C28.8 12.6052 27.4514 9.3495 25.051 6.94903C22.6505 4.54857 19.3948 3.2 16 3.2C12.6052 3.2 9.3495 4.54857 6.94903 6.94903C4.54857 9.3495 3.2 12.6052 3.2 16C3.2 19.3948 4.54857 22.6505 6.94903 25.051C9.3495 27.4514 12.6052 28.8 16 28.8ZM16 0C18.1012 0 20.1817 0.413852 22.1229 1.21793C24.0641 2.022 25.828 3.20055 27.3137 4.68629C28.7994 6.17203 29.978 7.93586 30.7821 9.87706C31.5861 11.8183 32 13.8989 32 16C32 20.2435 30.3143 24.3131 27.3137 27.3137C24.3131 30.3143 20.2435 32 16 32C7.152 32 0 24.8 0 16C0 11.7565 1.68571 7.68687 4.68629 4.68629C7.68687 1.68571 11.7565 0 16 0ZM16.8 8V16.4L24 20.672L22.8 22.64L14.4 17.6V8H16.8Z" fill="black"/>
+                    </svg>    
+                    <span>meun1</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.6 24V20.8H22.4V24H9.6ZM22.4 12.8L16 19.2L9.6 12.8H13.6V6.4H18.4V12.8H22.4ZM16 0C24.8 0 32 7.2 32 16C32 24.8 24.8 32 16 32C7.2 32 0 24.8 0 16C0 7.2 7.2 0 16 0ZM16 3.2C8.928 3.2 3.2 8.928 3.2 16C3.2 23.072 8.928 28.8 16 28.8C23.072 28.8 28.8 23.072 28.8 16C28.8 8.928 23.072 3.2 16 3.2Z" fill="black"/>
+                    </svg>    
+                    <span>meun2</span>                    
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.0526 29.0909H8.84211V8.72727H25.0526M25.0526 5.81818H8.84211C8.06041 5.81818 7.31074 6.12467 6.758 6.67023C6.20526 7.2158 5.89474 7.95573 5.89474 8.72727V29.0909C5.89474 29.8624 6.20526 30.6024 6.758 31.1479C7.31074 31.6935 8.06041 32 8.84211 32H25.0526C25.8343 32 26.584 31.6935 27.1367 31.1479C27.6895 30.6024 28 29.8624 28 29.0909V8.72727C28 7.95573 27.6895 7.2158 27.1367 6.67023C26.584 6.12467 25.8343 5.81818 25.0526 5.81818ZM20.6316 0H2.94737C2.16568 0 1.416 0.306493 0.863264 0.852053C0.310525 1.39761 0 2.13755 0 2.90909V23.2727H2.94737V2.90909H20.6316V0Z" fill="black"/>
+                    </svg>
+                    <span>meun3</span>                      
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 29.3333L24 6.66667C24 5.95942 23.719 5.28115 23.219 4.78105C22.7189 4.28095 22.0406 4 21.3333 4L16 4L16 6.66667L21.3333 6.66667L21.3333 29.3333L2.66667 29.3333L2.66667 6.66667L8 6.66667L8 4L2.66667 4C1.95942 4 1.28115 4.28095 0.78105 4.78105C0.280953 5.28114 1.17002e-06 5.95942 1.1391e-06 6.66667L1.48311e-07 29.3333C1.17396e-07 30.0406 0.280952 30.7189 0.781049 31.219C1.28115 31.719 1.95942 32 2.66667 32L21.3333 32C22.0406 32 22.7189 31.719 23.219 31.219C23.719 30.7189 24 30.0406 24 29.3333ZM8 9.33333L10.6667 9.33333L10.6667 -5.82818e-07L13.3333 -4.66255e-07L13.3333 9.33333L16 9.33333L12 14.6667L8 9.33333ZM10.6667 26.6667L10.6667 17.3333L13.3333 17.3333L13.3333 26.6667L10.6667 26.6667ZM16 26.6667L16 17.3333L18.6667 17.3333L18.6667 26.6667L16 26.6667ZM5.33333 22.6667L5.33333 17.3333L8 17.3333L8 22.6667L5.33333 22.6667Z" fill="black"/>
+                    </svg>               
+                    <span>meun4</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0C15.1826 0 18.2348 1.25375 20.4853 3.48543C22.7357 5.71711 24 8.74392 24 11.9C24 15.946 21.96 19.499 18.8571 21.658V25.5C18.8571 25.9509 18.6765 26.3833 18.355 26.7021C18.0335 27.0209 17.5975 27.2 17.1429 27.2H6.85714C6.40249 27.2 5.96645 27.0209 5.64496 26.7021C5.32347 26.3833 5.14286 25.9509 5.14286 25.5V21.658C2.04 19.499 0 15.946 0 11.9C0 8.74392 1.26428 5.71711 3.51472 3.48543C5.76516 1.25375 8.8174 0 12 0M6.85714 32.3V30.6H17.1429V32.3C17.1429 32.7509 16.9622 33.1833 16.6408 33.5021C16.3193 33.8209 15.8832 34 15.4286 34H8.57143C8.11677 34 7.68074 33.8209 7.35925 33.5021C7.03775 33.1833 6.85714 32.7509 6.85714 32.3ZM12 3.4C9.72672 3.4 7.54654 4.29553 5.93908 5.88959C4.33163 7.48365 3.42857 9.64566 3.42857 11.9C3.42857 15.385 5.53714 18.377 8.57143 19.686V23.8H15.4286V19.686C18.4629 18.377 20.5714 15.385 20.5714 11.9C20.5714 9.64566 19.6684 7.48365 18.0609 5.88959C16.4535 4.29553 14.2733 3.4 12 3.4V3.4Z" fill="black"/>
+                    </svg> 
+                    <span>meun5</span>
+                </a>
+            </li>
+            
+        </ul>  
+    </nav>
+
+<!-- script -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.slide').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false
+        });
+    });
+  </script>
 
 </body>
 </html>
